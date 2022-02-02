@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+.home-geral {
+    background-image: linear-gradient(to right top, #433a74, #4d395f, #462b69, #592583, #412169);
+}
+
+.conteudo-navbar {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.conteudo-a-navbar {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    transition: 1s;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.conteudo-a-navbar:hover {
+    color: orange;
+    text-decoration: overline;
+}
+
+.conteudo-geral {
+    padding: 0px 100px;
+    min-height: -130vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+}
+
+.botao-geral {
+    display:inline-block;
+    background: white;
+    color: #434978;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.5s;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.botao-geral:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+.botao-geral-2 {
+    display:inline-block;
+    background: transparent;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.5s;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.botao-geral-2:hover {
+    background-color: white;
+    color: #434978;
+}
+
+
+.titulo-conteudo-geral {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.texto-conteudo-geral {
+    font-size: 20px;
+}
+
+.tamanho-imagem {
+    width: 500px;
+    height: 500px;
+    transition: 1s;
+}
+
+/* About section style */
+
+.conteudo-geral-about {
+    background-color: #F6F9FF;
+}
+
+.titulo-about {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 32px;
+}
+
+.card {
+    border: none;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+
+.card:first-child {
+    margin-left: 0;
+}
+
+.card h2 {
+    font-size: 30px;
+    margin: 16px 0;
+}
+
+.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.card .button-card {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon img {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.button-card {
+    background: linear-gradient(to right, #380099, #8c50ec);
+    transition: 1s;
+}
+
+.button-card:hover {
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.card1 {
+    box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+
+.card2 {
+    box-shadow: 20px 20px 50px -30px #c09cfc;
+}
+
+.card3 {
+    box-shadow: 20px 20px 50px -30px #f89595;
+}
+
+/* Education section style */
+
+.conteudo-geral-education {
+    background-color: #F6F9FF;
+    padding: 0px 100px;
+    min-height: -130vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    flex-direction: row;
+}
+
+.titulo-conteudo-geral-education {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.texto-conteudo-geral-education {
+    font-size: 20px;
+}
+
+.botao-education-1 {
+    display:inline-block;
+    background: #434978;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.5s;
+    border: 1px solid #4d395f;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.botao-education-1:hover {
+    background-color: transparent;
+    color: #434978;
+    border: 1px solid #434978;
+}
+
+.botao-education-2 {
+    display:inline-block;
+    background: #434978;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.5s;
+    border: 1px solid #4d395f;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.botao-education-2:hover {
+    display:inline-block;
+    background: transparent;
+    color: #434978;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.5s;
+    border: 1px solid #4d395f;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+/* Statistics section */
+
+.conteudo-estatisticas {
+    background-image: linear-gradient(to right top, #433a74, #4d395f, #462b69, #592583, #412169);
+}
+
+.cards-posicao-estatisticas {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.valor-estatisticas {
+    color: white;
+    text-align: center;
+}
+
+.valor-estatisticas h3 {
+    font-size: 30px;
+}
+
+.valor-estatisticas span {
+    font-size: 30px;
+}
+
+/* Slides section */
+
+#contact {
+    background-color: #F6F9FF;
+}
+
+.titulo-contato {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color: #F6F9FF;
+}
+
+.conteudo-contato {
+    background-color: #F6F9FF;
+    min-height: -130vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    flex-direction: row;
+}
+
+.card-contato {
+    height: 520px;
+    padding: 32px;
+    width: 530px;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 0px 30px 50px -30px #c09cfc;
+    transition: 1s;
+}
+
+.card-contato:hover {
+    box-shadow: 0px 10px 30px 10px #c09cfc;
+}
+
+/* Input cards */
+
+.input-contato {
+    border: solid 1px purple;
+    margin-top: 20px;
+    height: 50px;
+    color: black;
+    outline: 0;
+    border-radius: 2px;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+.subtitulo-contato {
+    text-align: center;
+    font-size: 25px;
+}
+
+.message-input {
+    border: solid 1px purple;
+    outline: 0;
+    margin-top: 20px;
+    height: 120px;
+    width: 420px;
+    margin: 10px;
+}
+
+.message-input:focus {
+    border: solid 1px purple;
+}
+
+.button-contato {
+    text-transform: uppercase;
+    background-color: #434978;
+    border: none;
+    margin-top: 50px;
+    height: 50px;
+    width: 420px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.button-contato:hover {
+    border: 1px solid #434978;
+    color: #462b69;
+    background-color: transparent;
+}
+
+/* Footer page */
+
+.rodape-pagina {
+    background-color: #333;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+.rodape-conteudo {
+    text-align: center;
+}
+
+.titulo-rodape {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-rodape {
+    color: white;
+}
+
+.texto-rodape a {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.texto-rodape a:hover {
+    color: orange;
+}
+
+.linked { color: white; text-decoration: none; transition: 1s;}
+
+.linked:hover { color: orange;}
+
+.github { color: white; text-decoration: none; transition: 1s;}
+
+.github:hover { color: orange;}
+
+.social-midia {
+    margin: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+/* Media querie website */
+
+/* Home responsive */
+
+@media only screen and (max-width: 1015px) {
+    .conteudo-geral {
+        padding: 50px 20px 50px;
+        flex-direction: column-reverse;
+    }
+
+    .conteudo-geral .tamanho-imagem {
+        margin-left: 0;
+        max-width: 80%;
+        margin-top: -130px;
+        margin-bottom: -80px;
+    }
+}
+
+/* Cards responsive */
+
+@media only screen and (max-width: 868px) {
+    .cards {
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .card:first-child {
+        margin-left: 30px;
+    }
+}
+
+/* Education responsive */
+
+@media only screen and (max-width: 950px) {
+    .conteudo-geral-education {
+        padding: 50px 20px 50px;
+        flex-direction: column-reverse;
+    }
+
+    .conteudo-geral-education .tamanho-imagem {
+        margin-left: 0;
+        max-width: 80%;
+        margin-top: -130px;
+        margin-bottom: -10px;
+    }
+}
+
+/* Statistics responsive */
+
+@media only screen and (max-width: 750px) {
+    .cards-posicao-estatisticas {
+        display: block;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .card-estatisticas {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Contact responsive */
+
+@media only screen and (max-width: 1110px) {
+    .conteudo-contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-contato .tamanho-imagem {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .conteudo-contato .tamanho-imagem {
+        max-width: 80%;
+        margin-top: -40px;
+        margin-bottom: -30px;
+    }
+
+    .card-contato {
+        height: 100%;
+        padding: 32px;
+        width: 400px;
+    }
+
+    .input-contato {
+        width: 100%;
+    }
+
+    .message-input {
+        width: 100%;
+    }
+
+    .button-contato {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .card-contato {
+        height: 100%;
+        padding: 32px;
+        width: 300px;
+    }
+}
